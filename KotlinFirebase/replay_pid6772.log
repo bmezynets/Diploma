@@ -1,0 +1,739 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 335 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 192056 0 0
+ciMethod java/lang/Object hashCode ()I 2049 1 256 0 -1
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 2185 1 4941 0 -1
+ciMethod java/lang/String <init> ([CII)V 3289 1 10741 0 704
+ciMethod java/lang/String <init> ([CZ)V 2249 1 10546 0 0
+ciMethod java/lang/String length ()I 4097 1 50838 0 0
+ciMethod java/lang/String charAt (I)C 4097 1 179457 0 -1
+ciMethod java/lang/String codePointAt (I)I 1617 1 1198 0 -1
+ciMethod java/lang/String getChars ([CI)V 2057 1 5455 0 0
+ciMethod java/lang/String equals (Ljava/lang/Object;)Z 2049 11145 2257 0 -1
+ciMethod java/lang/String equalsIgnoreCase (Ljava/lang/String;)Z 2049 1 5436 0 1472
+ciMethod java/lang/String regionMatches (ZILjava/lang/String;II)Z 897 785 3873 0 0
+ciMethod java/lang/String startsWith (Ljava/lang/String;I)Z 3089 545 7524 0 0
+ciMethod java/lang/String endsWith (Ljava/lang/String;)Z 3081 1 12279 0 0
+ciMethod java/lang/String hashCode ()I 2713 32769 982 0 288
+ciMethod java/lang/String lastIndexOf (I)I 2049 1 12660 0 0
+ciMethod java/lang/String lastIndexOf (II)I 913 68025 1018 0 288
+ciMethod java/lang/String lastIndexOfSupplementary (II)I 0 0 1 0 -1
+ciMethod java/lang/String substring (II)Ljava/lang/String; 3073 1 10625 0 992
+ciMethod java/lang/String concat (Ljava/lang/String;)Ljava/lang/String; 2049 1 5455 0 896
+ciMethod java/lang/String replace (CC)Ljava/lang/String; 993 52425 1619 0 1120
+ciMethod java/lang/String toUpperCase (Ljava/util/Locale;)Ljava/lang/String; 753 27585 269 0 -1
+ciMethod java/lang/ClassLoader definePackage (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/net/URL;)Ljava/lang/Package; 513 1 255 0 -1
+ciMethod java/lang/ClassLoader getPackage (Ljava/lang/String;)Ljava/lang/Package; 2049 1 3501 0 0
+ciMethod java/lang/System nanoTime ()J 2049 1 256 0 -1
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 5121 1 640 0 -1
+ciMethod java/lang/Throwable addSuppressed (Ljava/lang/Throwable;)V 0 0 1 0 -1
+ciMethod java/security/SecureClassLoader defineClass (Ljava/lang/String;[BIILjava/security/CodeSource;)Ljava/lang/Class; 2609 1 2726 0 -1
+ciMethod java/security/SecureClassLoader defineClass (Ljava/lang/String;Ljava/nio/ByteBuffer;Ljava/security/CodeSource;)Ljava/lang/Class; 0 0 1 0 -1
+ciMethod java/lang/ref/Reference get ()Ljava/lang/Object; 1105 1 138 0 -1
+ciMethod java/lang/ref/Reference <init> (Ljava/lang/Object;)V 2057 1 2437 0 0
+ciMethod java/lang/ref/Reference <init> (Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V 2065 1 11292 0 0
+ciMethod java/lang/ref/SoftReference <init> (Ljava/lang/Object;)V 1825 1 760 0 0
+ciMethod java/lang/ref/SoftReference get ()Ljava/lang/Object; 3089 1 4635 0 0
+ciMethod java/util/Map get (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Map put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod sun/misc/Unsafe ensureClassInitialized (Ljava/lang/Class;)V 1833 1 229 0 -1
+ciMethod java/io/InputStream close ()V 0 0 1 0 -1
+ciMethod java/net/URLClassLoader getAndVerifyPackage (Ljava/lang/String;Ljava/util/jar/Manifest;Ljava/net/URL;)Ljava/lang/Package; 3625 1 2726 0 0
+ciMethod java/net/URLClassLoader definePackageInternal (Ljava/lang/String;Ljava/util/jar/Manifest;Ljava/net/URL;)V 2601 1 2726 0 0
+ciMethod java/net/URLClassLoader defineClass (Ljava/lang/String;Lsun/misc/Resource;)Ljava/lang/Class; 1577 1 2726 0 0
+ciMethod java/net/URLClassLoader definePackage (Ljava/lang/String;Ljava/util/jar/Manifest;Ljava/net/URL;)Ljava/lang/Package; 513 1 255 0 0
+ciMethod java/net/URLClassLoader isSealed (Ljava/lang/String;Ljava/util/jar/Manifest;)Z 2049 1 2471 0 0
+ciMethod java/net/URLClassLoader access$000 (Ljava/net/URLClassLoader;)Lsun/misc/URLClassPath; 1025 1 128 0 0
+ciMethod java/net/URLClassLoader access$100 (Ljava/net/URLClassLoader;Ljava/lang/String;Lsun/misc/Resource;)Ljava/lang/Class; 1577 1 2725 0 0
+ciMethod java/util/jar/Manifest <init> (Ljava/io/InputStream;)V 25 1 5 0 0
+ciMethod java/util/jar/Manifest <init> (Ljava/util/jar/JarVerifier;Ljava/io/InputStream;)V 25 1 5 0 -1
+ciMethod java/util/jar/Manifest getMainAttributes ()Ljava/util/jar/Attributes; 1033 1 129 0 0
+ciMethod java/util/jar/Manifest getEntries ()Ljava/util/Map; 1033 1 129 0 0
+ciMethod java/util/jar/Manifest getAttributes (Ljava/lang/String;)Ljava/util/jar/Attributes; 3457 1 2726 0 0
+ciMethod java/util/jar/Manifest getTrustedAttributes (Ljava/lang/String;)Ljava/util/jar/Attributes; 2441 1 2726 0 0
+ciMethod java/util/jar/Manifest read (Ljava/io/InputStream;)V 41 1 5 0 -1
+ciMethod java/security/CodeSource <init> (Ljava/net/URL;[Ljava/security/CodeSigner;)V 2601 1 2726 0 -1
+ciMethod java/lang/Character charCount (I)I 1633 1 1472 0 -1
+ciMethod java/lang/Character toChars (I[CI)I 0 0 1 0 -1
+ciMethod java/lang/Character toChars (I)[C 0 0 1 0 -1
+ciMethod java/lang/Character toLowerCase (C)C 2073 1 8372 0 0
+ciMethod java/lang/Character toLowerCase (I)I 4097 1 14574 0 0
+ciMethod java/lang/Character toUpperCase (C)C 2057 1 8121 0 0
+ciMethod java/lang/Character toUpperCase (I)I 2057 1 8121 0 0
+ciMethod java/lang/Character toUpperCaseEx (I)I 2433 1 10156 0 -1
+ciMethod java/lang/Character toUpperCaseCharArray (I)[C 0 0 1 0 -1
+ciMethod java/util/Comparator compare (Ljava/lang/Object;Ljava/lang/Object;)I 0 0 1 0 -1
+ciMethod sun/misc/SharedSecrets javaUtilJarAccess ()Lsun/misc/JavaUtilJarAccess; 2057 1 5463 0 0
+ciMethod java/util/HashMap hash (Ljava/lang/Object;)I 2121 1 17479 0 0
+ciMethod java/util/HashMap <init> ()V 113 1 1113 0 -1
+ciMethod java/util/HashMap get (Ljava/lang/Object;)Ljava/lang/Object; 2129 1 5421 0 576
+ciMethod java/util/HashMap getNode (ILjava/lang/Object;)Ljava/util/HashMap$Node; 2065 1 5430 0 544
+ciMethod java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 681 1 5322 0 -1
+ciMethod java/lang/Math min (II)I 3521 1 40335 0 -1
+ciMethod java/util/Arrays copyOf ([CI)[C 1001 1 8926 0 0
+ciMethod java/util/Arrays copyOfRange ([CII)[C 3289 1 5658 0 512
+ciMethodData java/lang/Object <init> ()V 2 192056 orig 264 8 206 139 109 0 0 0 0 128 4 65 23 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 193 97 23 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/Locale getLanguage ()Ljava/lang/String; 1049 1 328 0 -1
+ciMethod java/lang/CharacterData toLowerCase (I)I 0 0 1 0 -1
+ciMethod java/lang/CharacterData toUpperCase (I)I 0 0 1 0 -1
+ciMethod java/lang/CharacterData of (I)Ljava/lang/CharacterData; 4097 1 5632 0 96
+ciMethod java/lang/CharacterDataLatin1 getProperties (I)I 4097 1 23235 0 -1
+ciMethod java/lang/CharacterDataLatin1 toLowerCase (I)I 4097 1 5742 0 160
+ciMethod java/lang/CharacterDataLatin1 toUpperCase (I)I 3081 1 5507 0 160
+ciMethod java/util/HashMap$TreeNode getTreeNode (ILjava/lang/Object;)Ljava/util/HashMap$TreeNode; 0 0 1 0 -1
+ciMethodData java/lang/Character toLowerCase (I)I 2 14574 orig 264 8 206 139 109 0 0 0 0 120 198 74 23 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 113 183 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 64 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 8 0x10002 0x36ee 0x50005 0x0 0x1a18ebd0 0x36ee 0x0 0x0 oops 1 4 java/lang/CharacterDataLatin1
+ciMethodData java/lang/String hashCode ()I 2 20616 orig 264 8 206 139 109 0 0 0 0 0 80 65 23 0 0 0 0 152 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 0 0 25 20 0 0 65 4 2 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 11 0 2 0 0 0 120 0 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 15 0x60007 0x127 0x78 0x15c 0xe0007 0x2 0x58 0x15a 0x1e0007 0x15a 0x38 0x407a 0x2d0003 0x407a 0xffffffffffffffe0 oops 0
+ciMethod sun/misc/URLClassPath getResource (Ljava/lang/String;Z)Lsun/misc/Resource; 2721 16393 3220 0 3008
+ciMethod sun/misc/URLClassPath getLookupCache (Ljava/lang/String;)[I 2721 1 3266 0 -1
+ciMethod sun/misc/URLClassPath getNextLoader ([II)Lsun/misc/URLClassPath$Loader; 2505 1 5760 0 -1
+ciMethod java/net/URLClassLoader$1 run ()Ljava/lang/Class; 3153 1 5513 0 0
+ciMethod java/net/URLClassLoader$1 run ()Ljava/lang/Object; 3153 1 5514 0 -1
+ciMethod sun/misc/URLClassPath$JarLoader access$600 (Lsun/misc/URLClassPath$JarLoader;)Ljava/net/URL; 1033 1 129 0 0
+ciMethod sun/misc/URLClassPath$JarLoader access$700 (Lsun/misc/URLClassPath$JarLoader;)Ljava/util/jar/JarFile; 1033 1 129 0 0
+ciMethod sun/misc/URLClassPath$Loader getResource (Ljava/lang/String;Z)Lsun/misc/Resource; 0 0 1 0 -1
+ciMethod java/util/zip/ZipFile getEntry (J[BZ)J 3073 1 384 0 -1
+ciMethod java/util/zip/ZipFile getInputStream (Ljava/util/zip/ZipEntry;)Ljava/io/InputStream; 2801 1 2757 0 0
+ciMethod java/util/zip/ZipFile getInflater ()Ljava/util/zip/Inflater; 3825 1 2756 0 -1
+ciMethod java/util/zip/ZipFile ensureOpen ()V 3073 1 5506 0 -1
+ciMethod java/util/zip/ZipFile getEntrySize (J)J 3073 1 384 0 -1
+ciMethod java/util/zip/ZipFile getEntryMethod (J)I 2049 1 256 0 -1
+ciMethodData java/lang/String length ()I 2 50838 orig 264 8 206 139 109 0 0 0 0 96 60 65 23 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 177 36 6 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/util/Arrays copyOf ([CI)[C 2 8926 orig 264 8 206 139 109 0 0 0 0 176 46 83 23 0 0 0 0 112 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 125 0 0 0 9 19 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 7 0 2 0 0 0 32 0 0 0 255 255 255 255 2 0 11 0 0 0 0 0 data 4 0xb0002 0x2261 0xe0002 0x2261 oops 0
+ciMethod java/util/jar/JarFile getManifest ()Ljava/util/jar/Manifest; 697 1 2726 0 0
+ciMethod java/util/jar/JarFile getManifestFromReference ()Ljava/util/jar/Manifest; 697 1 2726 0 0
+ciMethod java/util/jar/JarFile getMetaInfEntryNames ()[Ljava/lang/String; 65 1 8 0 -1
+ciMethod java/util/jar/JarFile getJarEntry (Ljava/lang/String;)Ljava/util/jar/JarEntry; 369 1 988 0 -1
+ciMethod java/util/jar/JarFile maybeInstantiateVerifier ()V 2057 753 5417 0 992
+ciMethod java/util/jar/JarFile initializeVerifier ()V 0 0 1 0 -1
+ciMethod java/util/jar/JarFile getBytes (Ljava/util/zip/ZipEntry;)[B 25 1 11 0 0
+ciMethod java/util/jar/JarFile getManEntry ()Ljava/util/jar/JarEntry; 49 1 16 0 0
+ciMethod java/util/jar/JarFile ensureInitialization ()V 4097 1 2726 0 0
+ciMethod sun/misc/JavaUtilJarAccess getTrustedAttributes (Ljava/util/jar/Manifest;Ljava/lang/String;)Ljava/util/jar/Attributes; 0 0 1 0 -1
+ciMethod sun/misc/JavaUtilJarAccess ensureInitialization (Ljava/util/jar/JarFile;)V 0 0 1 0 -1
+ciMethod java/util/jar/JavaUtilJarAccessImpl getTrustedAttributes (Ljava/util/jar/Manifest;Ljava/lang/String;)Ljava/util/jar/Attributes; 2441 1 2726 0 0
+ciMethod java/util/jar/JavaUtilJarAccessImpl ensureInitialization (Ljava/util/jar/JarFile;)V 4097 1 2726 0 0
+ciMethod java/util/zip/ZipCoder getBytes (Ljava/lang/String;)[B 3073 1 6537 0 -1
+ciMethod java/util/zip/ZipCoder getBytesUTF8 (Ljava/lang/String;)[B 0 0 1 0 -1
+ciMethod java/util/zip/ZipCoder isUTF8 ()Z 1025 1 128 0 -1
+ciMethod sun/misc/PerfCounter addElapsedTimeFrom (J)V 761 1 5216 0 -1
+ciMethod sun/misc/PerfCounter getReadClassBytesTime ()Lsun/misc/PerfCounter; 2601 1 2726 0 -1
+ciMethod java/util/zip/ZipEntry getSize ()J 2065 1 2755 0 -1
+ciMethod java/util/zip/ZipFile$ZipFileInputStream <init> (Ljava/util/zip/ZipFile;J)V 3081 1 2757 0 -1
+ciMethod java/util/zip/ZipFile$ZipFileInflaterInputStream <init> (Ljava/util/zip/ZipFile;Ljava/util/zip/ZipFile$ZipFileInputStream;Ljava/util/zip/Inflater;I)V 3825 1 2756 0 -1
+ciMethod sun/misc/IOUtils readFully (Ljava/io/InputStream;IZ)[B 89 89 11 0 -1
+ciMethod sun/misc/URLClassPath$JarLoader$2 getCodeSourceURL ()Ljava/net/URL; 4097 1 2726 0 0
+ciMethod sun/misc/URLClassPath$JarLoader$2 getManifest ()Ljava/util/jar/Manifest; 4097 1 2726 0 0
+ciMethod sun/misc/Resource getCodeSourceURL ()Ljava/net/URL; 0 0 1 0 -1
+ciMethod sun/misc/Resource getBytes ()[B 2609 6537 2726 0 -1
+ciMethod sun/misc/Resource getByteBuffer ()Ljava/nio/ByteBuffer; 2601 1 2726 0 -1
+ciMethod sun/misc/Resource getManifest ()Ljava/util/jar/Manifest; 0 0 1 0 -1
+ciMethod sun/misc/Resource getCodeSigners ()[Ljava/security/CodeSigner; 0 0 1 0 -1
+ciMethodData java/util/Arrays copyOfRange ([CII)[C 2 5658 orig 264 8 206 139 109 0 0 0 0 120 54 83 23 0 0 0 0 120 2 0 0 240 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 155 1 0 0 249 163 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 9 0 2 0 0 0 32 1 0 0 255 255 255 255 7 0 5 0 0 0 0 0 data 36 0x50007 0x147f 0x100 0x0 0x100002 0x0 0x140005 0x0 0x0 0x0 0x0 0x0 0x190005 0x0 0x0 0x0 0x0 0x0 0x1d0005 0x0 0x0 0x0 0x0 0x0 0x200005 0x0 0x0 0x0 0x0 0x0 0x230002 0x0 0x360002 0x147f 0x390002 0x147f oops 0
+ciMethodData java/lang/String <init> ([CII)V 2 10741 orig 264 8 206 139 109 0 0 0 0 160 49 65 23 0 0 0 0 80 2 0 0 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 154 1 0 0 209 66 1 0 1 0 0 0 63 20 0 0 0 0 0 0 2 0 0 0 0 0 14 0 2 0 0 0 240 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 30 0x10002 0x285a 0x50007 0x285a 0x30 0x0 0xd0002 0x0 0x12e007 0x2859 0x70 0x3 0x160007 0x3 0x30 0x0 0x1e0002 0x0 0x250007 0x0 0x20 0x3 0x370007 0x2859 0x30 0x0 0x410002 0x0 0x4b0002 0x2859 oops 0
+ciMethod java/util/jar/Attributes <init> ()V 41 1 5 0 -1
+ciMethod java/util/jar/Attributes get (Ljava/lang/Object;)Ljava/lang/Object; 2057 1 4256 0 0
+ciMethod java/util/jar/Attributes getValue (Ljava/util/jar/Attributes$Name;)Ljava/lang/String; 2057 1 4256 0 0
+ciMethodData java/lang/String startsWith (Ljava/lang/String;I)Z 2 13215 orig 264 8 206 139 109 0 0 0 0 248 77 65 23 0 0 0 0 176 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 130 1 0 0 17 223 0 0 217 154 1 0 240 20 0 0 239 43 0 0 2 0 0 0 1 0 13 0 2 0 0 0 128 0 0 0 255 255 255 255 7 224 25 0 0 0 0 0 data 16 0x19e007 0xc 0x40 0x1bd8 0x250007 0x1abc 0x20 0x11c 0x2f0007 0x6d8 0x40 0x3360 0x410007 0x1f7c 0xffffffffffffffe0 0x13e4 oops 0
+ciMethod java/util/jar/Attributes$Name equals (Ljava/lang/Object;)Z 2065 1 762 0 0
+ciMethod java/util/jar/Attributes$Name hashCode ()I 2049 1 4277 0 0
+ciMethod sun/misc/ASCIICaseInsensitiveComparator compare (Ljava/lang/String;Ljava/lang/String;)I 1033 21673 762 0 -1
+ciMethod sun/misc/ASCIICaseInsensitiveComparator lowerCaseHashCode (Ljava/lang/String;)I 185 3537 28 0 0
+ciMethod sun/misc/ASCIICaseInsensitiveComparator toLower (I)I 2601 1 537 0 -1
+ciMethod sun/misc/ASCIICaseInsensitiveComparator compare (Ljava/lang/Object;Ljava/lang/Object;)I 2065 1 762 0 0
+ciMethod java/lang/Package isSealed ()Z 2049 1 2471 0 0
+ciMethod java/lang/Package isSealed (Ljava/net/URL;)Z 0 0 1 0 -1
+ciMethod java/lang/Package getSystemPackage (Ljava/lang/String;)Ljava/lang/Package; 481 1 510 0 0
+ciMethod java/lang/Package defineSystemPackage (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Package; 0 0 1 0 0
+ciMethod java/lang/Package getSystemPackage0 (Ljava/lang/String;)Ljava/lang/String; 2049 1 256 0 -1
+ciMethodData java/lang/String endsWith (Ljava/lang/String;)Z 2 12279 orig 264 8 206 139 109 0 0 0 0 48 79 65 23 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 1 0 0 177 115 1 0 1 0 0 0 239 42 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 13 0 0 0 0 0 data 6 0xd0005 0x12 0x31ef3f0 0x2e64 0x0 0x0 oops 1 2 java/lang/String
+ciMethodData java/util/HashMap hash (Ljava/lang/Object;)I 2 17479 orig 264 8 206 139 109 0 0 0 0 88 157 79 23 0 0 0 0 176 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 1 0 0 241 25 2 0 1 0 0 0 22 65 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 104 0 0 0 255 255 255 255 7 224 1 0 0 0 0 0 data 13 0x1e007 0x4336 0x38 0x9 0x50003 0x9 0x48 0x90005 0x3f13 0x17da2750 0x2fd 0x31efab0 0x122 oops 2 9 java/security/CodeSource 11 java/security/ProtectionDomain
+ciMethodData java/util/HashMap getNode (ILjava/lang/Object;)Ljava/util/HashMap$Node; 2 5430 orig 264 8 206 139 109 0 0 0 0 8 167 79 23 0 0 0 0 8 4 0 0 176 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 161 161 0 0 89 2 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 37 0 2 0 0 0 176 2 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 86 0x60007 0x3f2 0x2b0 0x1042 0xe0007 0x0 0x290 0x1042 0x1c0007 0x4cf 0x270 0xb73 0x250007 0x211 0xb0 0x962 0x310007 0x1df 0x90 0x783 0x350007 0x0 0x70 0x783 0x3b0005 0x42e 0x17da2750 0x2cf 0x1a2c0ba0 0x86 0x3e0007 0x3f 0x20 0x744 0x4c0007 0x97 0x1a0 0x1b9 0x510004 0xfffffffffffffe47 0x0 0x0 0x0 0x0 0x540007 0x1b9 0x80 0x0 0x590004 0x0 0x0 0x0 0x0 0x0 0x5e0005 0x0 0x0 0x0 0x0 0x0 0x680007 0x4a 0xb0 0x199 0x740007 0x47 0x90 0x152 0x780007 0x0 0x70 0x152 0x7e0005 0x60 0x31ef3f0 0xaf 0x1a2c0ba0 0x43 0x810007 0x1 0x20 0x151 0x8f0007 0x2a 0xffffffffffffff50 0x21 oops 4 26 java/security/CodeSource 28 java/util/jar/Attributes$Name 74 java/lang/String 76 java/util/jar/Attributes$Name
+ciMethodData java/lang/String lastIndexOf (II)I 2 34000 orig 264 8 206 139 109 0 0 0 0 208 83 65 23 0 0 0 0 240 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 55 33 0 0 65 28 0 0 201 28 3 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 14 0 2 0 0 0 152 0 0 0 255 255 255 255 7 0 3 0 0 0 0 0 data 19 0x30007 0x0 0x88 0x388 0x100002 0x388 0x170007 0x2d 0x58 0x66f4 0x1f0007 0x6399 0x20 0x35b 0x280003 0x6399 0xffffffffffffffc0 0x300002 0x0 oops 0
+ciMethodData java/lang/Character toLowerCase (C)C 2 8372 orig 264 8 206 139 109 0 0 0 0 224 197 74 23 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 0 137 253 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x1fb1 oops 0
+ciMethodData java/lang/String replace (CC)Ljava/lang/String; 2 76474 orig 264 8 206 139 109 0 0 0 0 56 95 65 23 0 0 0 0 136 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 153 25 0 0 185 46 0 0 9 137 8 0 20 3 0 0 214 102 0 0 2 0 0 0 3 0 23 0 2 0 0 0 80 1 0 0 255 255 255 255 7 224 2 0 0 0 0 0 data 42 0x2e007 0x3 0x150 0x5d5 0x1a0007 0xb 0x58 0x1da5 0x230007 0x17db 0xffffffffffffffe0 0x5ca 0x260003 0x5ca 0x18 0x2c0007 0xb 0xd8 0x5ca 0x3b0007 0x5ca 0x38 0x14ee 0x4b0003 0x14ee 0xffffffffffffffe0 0x510007 0x5ca 0x70 0xde99 0x620007 0xc786 0x38 0x1713 0x660003 0x1713 0x18 0x6f0003 0xde99 0xffffffffffffffa8 0x790002 0x5ca oops 0
+ciMethodData java/lang/String <init> ([CZ)V 2 10546 orig 264 8 206 139 109 0 0 0 0 200 59 65 23 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 1 0 0 201 64 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x2819 oops 0
+ciMethodData java/util/HashMap get (Ljava/lang/Object;)Ljava/lang/Object; 2 5421 orig 264 8 206 139 109 0 0 0 0 216 165 79 23 0 0 0 0 200 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 1 0 0 25 161 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 10 0 2 0 0 0 120 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 15 0x20002 0x1423 0x60005 0xe 0x1a1f9b60 0x1415 0x0 0x0 0xb0007 0xad8 0x38 0x94b 0xf0003 0x94b 0x18 oops 1 4 java/util/HashMap
+ciMethodData java/lang/ref/Reference <init> (Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V 2 11292 orig 264 8 206 139 109 0 0 0 0 160 135 67 23 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 209 88 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 72 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 9 0x10002 0x2b1a 0xb0007 0x21ff 0x38 0x91b 0x110003 0x91b 0x18 oops 0
+ciMethodData java/lang/String lastIndexOf (I)I 2 12660 orig 264 8 206 139 109 0 0 0 0 0 83 65 23 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 161 131 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 9 0 0 0 0 0 data 6 0x90005 0x1 0x31ef3f0 0x3073 0x0 0x0 oops 1 2 java/lang/String
+ciMethodData java/lang/String substring (II)Ljava/lang/String; 2 10625 orig 264 8 206 139 109 0 0 0 0 184 92 65 23 0 0 0 0 40 2 0 0 208 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 9 64 1 0 1 0 0 0 59 20 0 0 0 0 0 0 2 0 0 0 0 0 15 0 2 0 0 0 248 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 31 0x10007 0x2801 0x30 0x0 0x90002 0x0 0x130007 0x2801 0x30 0x0 0x1b0002 0x0 0x240007 0x2801 0x30 0x0 0x2c0002 0x0 0x310007 0x514 0x58 0x22ed 0x3a0007 0x1ba3 0x38 0x74a 0x3e0003 0x74a 0x28 0x4b0002 0x20b7 oops 0
+ciMethodData java/lang/ref/Reference <init> (Ljava/lang/Object;)V 2 2437 orig 264 8 206 139 109 0 0 0 0 240 134 67 23 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 33 68 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 3 0 0 0 0 0 data 2 0x30002 0x884 oops 0
+ciMethodData java/lang/String equalsIgnoreCase (Ljava/lang/String;)Z 2 5436 orig 264 8 206 139 109 0 0 0 0 104 73 65 23 0 0 0 0 48 2 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 225 161 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 13 0 2 0 0 0 224 0 0 0 255 255 255 255 7 0 2 0 0 0 0 0 data 28 0x20007 0x1032 0x38 0x40a 0x60003 0x40a 0xc0 0xa0007 0x40b 0xa8 0xc27 0x170007 0x814 0x88 0x413 0x240005 0x1 0x31ef3f0 0x412 0x0 0x0 0x270007 0x40e 0x38 0x5 0x2b0003 0x5 0x18 oops 1 17 java/lang/String
+ciMethodData java/lang/String regionMatches (ZILjava/lang/String;II)Z 2 3873 orig 264 8 206 139 109 0 0 0 0 24 77 65 23 0 0 0 0 24 3 0 0 96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 112 0 0 0 137 117 0 0 161 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 24 0 2 0 0 0 168 1 0 0 255 255 255 255 7 0 21 0 0 0 0 0 data 53 0x150007 0x0 0x80 0xeb1 0x190007 0x0 0x60 0xeb1 0x290007 0x0 0x40 0xeb1 0x3a0007 0xeb1 0x20 0x0 0x440007 0x5 0x128 0xec0 0x5f0007 0xeac 0x38 0x14 0x620003 0x14 0xffffffffffffffc0 0x660007 0x0 0xd0 0xeac 0x6b0002 0xeac 0x720002 0xeac 0x7b0007 0xeac 0x38 0x0 0x7e0003 0x0 0xffffffffffffff48 0x830002 0xeac 0x880002 0xeac 0x8b0007 0xeac 0x38 0x0 0x8e0003 0x0 0xfffffffffffffef0 oops 0
+ciMethodData java/lang/Character toUpperCase (C)C 2 8121 orig 264 8 206 139 109 0 0 0 0 16 199 74 23 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 193 245 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x1eb8 oops 0
+ciMethodData java/lang/Character toUpperCase (I)I 2 8121 orig 264 8 206 139 109 0 0 0 0 168 199 74 23 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 193 245 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 64 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 8 0x10002 0x1eb8 0x50005 0x0 0x1a18ebd0 0x1eb8 0x0 0x0 oops 1 4 java/lang/CharacterDataLatin1
+ciMethodData java/lang/String concat (Ljava/lang/String;)Ljava/lang/String; 2 5455 orig 264 8 206 139 109 0 0 0 0 24 94 65 23 0 0 0 0 240 1 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 121 162 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 10 0 2 0 0 0 160 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 20 0x10005 0x4 0x31ef3f0 0x144b 0x0 0x0 0x60007 0x144f 0x20 0x0 0x180002 0x144f 0x210005 0x4 0x31ef3f0 0x144b 0x0 0x0 0x2b0002 0x144f oops 2 2 java/lang/String 14 java/lang/String
+ciMethodData java/lang/String getChars ([CI)V 2 5455 orig 264 8 206 139 109 0 0 0 0 48 65 65 23 0 0 0 0 104 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 113 162 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 12 0 0 0 0 0 data 2 0xc0002 0x144e oops 0
+ciMethodData java/util/jar/JarFile maybeInstantiateVerifier ()V 2 5417 orig 264 8 206 139 109 0 0 0 0 120 57 97 23 0 0 0 0 144 3 0 0 80 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 65 161 0 0 25 3 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 23 0 2 0 0 0 72 2 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 73 0x40007 0x1428 0x20 0x0 0xc0007 0x1424 0x228 0x4 0x100002 0x4 0x150007 0x0 0x1f8 0x4 0x1d0007 0x4 0x1d8 0x63 0x260005 0xe 0x31ef3f0 0x55 0x0 0x0 0x2d0005 0xe 0x31ef3f0 0x55 0x0 0x0 0x300007 0x0 0x110 0x63 0x360005 0xe 0x31ef3f0 0x55 0x0 0x0 0x390007 0x0 0xc0 0x63 0x3f0005 0xe 0x31ef3f0 0x55 0x0 0x0 0x420007 0x0 0x70 0x63 0x480005 0xe 0x31ef3f0 0x55 0x0 0x0 0x4b0007 0x63 0x50 0x0 0x4f0005 0x0 0x0 0x0 0x0 0x0 0x570003 0x63 0xfffffffffffffe40 oops 5 20 java/lang/String 26 java/lang/String 36 java/lang/String 46 java/lang/String 56 java/lang/String
+ciMethodData java/util/jar/JarFile getManifest ()Ljava/util/jar/Manifest; 2 2726 orig 264 8 206 139 109 0 0 0 0 48 52 97 23 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 87 0 0 0 121 82 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0xa4f oops 0
+ciMethodData java/util/jar/JarFile getManifestFromReference ()Ljava/util/jar/Manifest; 2 2726 orig 264 8 206 139 109 0 0 0 0 72 53 97 23 0 0 0 0 248 2 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 87 0 0 0 121 82 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 28 0 2 0 0 0 176 1 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 54 0x40007 0x2 0x98 0xa4d 0xb0005 0x0 0x31f02b0 0xa4d 0x0 0x0 0xe0004 0x0 0x17da2510 0xa4d 0x0 0x0 0x110003 0xa4d 0x18 0x170007 0xa4d 0x118 0x2 0x1b0002 0x2 0x200007 0x0 0xe8 0x2 0x270007 0x2 0x98 0x0 0x2c0002 0x0 0x340007 0x0 0x30 0x0 0x3d0002 0x0 0x500002 0x0 0x530002 0x0 0x570003 0x0 0x38 0x600002 0x2 0x630002 0x2 0x6d0002 0x2 oops 2 6 java/lang/ref/SoftReference 12 java/util/jar/Manifest
+ciMethodData java/util/jar/Attributes$Name hashCode ()I 2 4277 orig 264 8 206 139 109 0 0 0 0 248 91 100 23 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 169 125 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 48 0 0 0 255 255 255 255 7 0 5 0 0 0 0 0 data 6 0x50007 0xfb0 0x30 0x5 0xd0002 0x5 oops 0
+ciMethodData java/util/jar/Attributes getValue (Ljava/util/jar/Attributes$Name;)Ljava/lang/String; 2 4256 orig 264 8 206 139 109 0 0 0 0 160 38 100 23 0 0 0 0 176 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 249 124 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 96 0 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 12 0x20005 0x0 0x1a1f9860 0xf9f 0x0 0x0 0x50104 0x0 0x31ef3f0 0x2af 0x0 0x0 oops 2 2 java/util/jar/Attributes 8 java/lang/String
+ciMethodData java/util/jar/Attributes get (Ljava/lang/Object;)Ljava/lang/Object; 2 4256 orig 264 8 206 139 109 0 0 0 0 104 37 100 23 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 249 124 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 255 255 255 255 5 0 5 0 0 0 0 0 data 6 0x50005 0x0 0x1a1f9b60 0xf9f 0x0 0x0 oops 1 2 java/util/HashMap
+ciMethodData sun/misc/SharedSecrets javaUtilJarAccess ()Lsun/misc/JavaUtilJarAccess; 2 5463 orig 264 8 206 139 109 0 0 0 0 160 77 79 23 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 177 162 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 80 0 0 0 255 255 255 255 7 0 3 0 0 0 0 0 data 10 0x30007 0x1456 0x50 0x0 0xb0005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData java/lang/ClassLoader getPackage (Ljava/lang/String;)Ljava/lang/Package; 2 3501 orig 264 8 206 139 109 0 0 0 0 96 109 66 23 0 0 0 0 96 3 0 0 224 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 105 101 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 23 0 2 0 0 0 16 2 0 0 255 255 255 255 5 0 12 0 0 0 0 0 data 66 0xc0005 0x0 0x1a1f9b60 0xcad 0x0 0x0 0xf0104 0x0 0x1a1fe7b0 0x91f 0x0 0x0 0x150003 0xcad 0x18 0x200007 0x91f 0x198 0x38e 0x270007 0x1c2 0x68 0x1cc 0x2f0005 0x0 0x17da26c0 0x1c2 0x17da2630 0xa 0x330003 0x1cc 0x28 0x370002 0x1c2 0x3c0007 0x38e 0x100 0x0 0x4b0005 0x0 0x0 0x0 0x0 0x0 0x4e0004 0x0 0x0 0x0 0x0 0x0 0x550007 0x0 0x68 0x0 0x5e0005 0x0 0x0 0x0 0x0 0x0 0x620003 0x0 0x18 0x6a0003 0x0 0x18 oops 4 2 java/util/HashMap 8 java/lang/Package 25 sun/misc/Launcher$ExtClassLoader 27 sun/misc/Launcher$AppClassLoader
+ciMethodData java/lang/Package getSystemPackage (Ljava/lang/String;)Ljava/lang/Package; 1 510 orig 264 8 206 139 109 0 0 0 0 40 153 100 23 0 0 0 0 104 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60 0 0 0 17 14 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 12 0 2 0 0 0 32 1 0 0 255 255 255 255 5 0 10 0 0 0 0 0 data 36 0xa0005 0x0 0x1a1f9b60 0x1c2 0x0 0x0 0xf0104 0x0 0x0 0x0 0x0 0x0 0x140007 0x0 0xc0 0x1c2 0x1c0005 0x101 0x31ef3f0 0xc1 0x0 0x0 0x210005 0x101 0x31ef3f0 0xc1 0x0 0x0 0x260002 0x1c2 0x2b0007 0x1c2 0x30 0x0 0x300002 0x0 oops 3 2 java/util/HashMap 18 java/lang/String 24 java/lang/String
+ciMethodData java/net/URLClassLoader$1 run ()Ljava/lang/Object; 2 5514 orig 264 8 206 139 109 0 0 0 0 128 219 95 23 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138 1 0 0 1 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 6 0x10005 0x0 0x1a201660 0x13ff 0x0 0x0 oops 1 2 java/net/URLClassLoader$1
+ciMethodData java/net/URLClassLoader$1 run ()Ljava/lang/Class; 2 5513 orig 264 8 206 139 109 0 0 0 0 232 218 95 23 0 0 0 0 40 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138 1 0 0 249 159 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 7 0 2 0 0 0 224 0 0 0 255 255 255 255 5 0 8 0 0 0 0 0 data 28 0x80005 0x0 0x31ef3f0 0x13ff 0x0 0x0 0xd0005 0x0 0x31ef3f0 0x13ff 0x0 0x0 0x150002 0x13ff 0x1a0005 0x0 0x1a204fd0 0x13ff 0x0 0x0 0x1f0007 0xa1f 0x40 0x9e0 0x2b0002 0x9e0 0x390002 0x0 oops 3 2 java/lang/String 8 java/lang/String 16 sun/misc/URLClassPath
+ciMethodData java/net/URLClassLoader access$100 (Ljava/net/URLClassLoader;Ljava/lang/String;Lsun/misc/Resource;)Ljava/lang/Class; 2 2726 orig 264 8 206 139 109 0 0 0 0 0 171 73 23 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 197 0 0 0 9 79 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 3 0 0 0 0 0 data 2 0x30002 0x9e1 oops 0
+ciMethodData java/net/URLClassLoader defineClass (Ljava/lang/String;Lsun/misc/Resource;)Ljava/lang/Class; 2 2726 orig 264 8 206 139 109 0 0 0 0 160 162 73 23 0 0 0 0 56 4 0 0 208 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 197 0 0 0 9 79 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 20 0 2 0 0 0 224 2 0 0 255 255 255 255 2 0 0 0 0 0 0 0 data 92 0x2 0x9e1 0x70005 0x85 0x31ef3f0 0x95c 0x0 0x0 0xd0005 0x0 0x1972ff40 0x9e1 0x0 0x0 0x150007 0x0 0x90 0x9e1 0x1c0005 0x85 0x31ef3f0 0x95c 0x0 0x0 0x220005 0x0 0x1972ff40 0x9e1 0x0 0x0 0x2e0002 0x9e1 0x320005 0x0 0x1972ff40 0x9e1 0x0 0x0 0x390007 0x9e1 0xd0 0x0 0x3d0005 0x0 0x0 0x0 0x0 0x0 0x4a0002 0x0 0x4f0002 0x0 0x530005 0x0 0x0 0x0 0x0 0x0 0x5c0005 0x0 0x0 0x0 0x0 0x0 0x610005 0x0 0x1972ff40 0x9e1 0x0 0x0 0x670005 0x0 0x1972ff40 0x9e1 0x0 0x0 0x740002 0x9e1 0x790002 0x9e1 0x7d0005 0x0 0x1a2496b0 0x9e1 0x0 0x0 0x8a0005 0x85 0x17da2630 0x941 0x17da23f0 0x1b oops 10 4 java/lang/String 10 sun/misc/URLClassPath$JarLoader$2 20 java/lang/String 26 sun/misc/URLClassPath$JarLoader$2 34 sun/misc/URLClassPath$JarLoader$2 66 sun/misc/URLClassPath$JarLoader$2 72 sun/misc/URLClassPath$JarLoader$2 82 sun/misc/PerfCounter 88 sun/misc/Launcher$AppClassLoader 90 java/net/URLClassLoader
+ciMethodData java/lang/ref/SoftReference get ()Ljava/lang/Object; 2 4635 orig 264 8 206 139 109 0 0 0 0 120 140 67 23 0 0 0 0 112 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 130 1 0 0 201 132 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 2 0 0 0 80 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 10 0x10002 0x1099 0x60007 0x4 0x40 0x1095 0x110007 0x1043 0x20 0x52 oops 0
+ciMethodData java/lang/Package isSealed ()Z 2 2471 orig 264 8 206 139 109 0 0 0 0 40 138 100 23 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 57 69 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 56 0 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 7 0x40007 0x8a7 0x38 0x0 0x80003 0x0 0x18 oops 0
+ciMethodData java/net/URLClassLoader isSealed (Ljava/lang/String;Ljava/util/jar/Manifest;)Z 2 2471 orig 264 8 206 139 109 0 0 0 0 72 165 73 23 0 0 0 0 24 3 0 0 96 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 57 69 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 15 0 2 0 0 0 192 1 0 0 255 255 255 255 2 0 0 0 0 0 0 0 data 56 0x2 0x8a7 0x90005 0x1 0x31ef3f0 0x8a6 0x0 0x0 0xe0005 0x1 0x31ef3f0 0x8a6 0x0 0x0 0x110005 0x0 0x17dcf630 0x8a7 0x0 0x0 0x1b0007 0x8a7 0x50 0x0 0x220005 0x0 0x0 0x0 0x0 0x0 0x290007 0x0 0xa0 0x8a7 0x2d0005 0x0 0x17da2510 0x8a7 0x0 0x0 0x320007 0x0 0x50 0x8a7 0x390005 0x0 0x1a1f9860 0x8a7 0x0 0x0 0x420005 0x1 0x31ef3f0 0x8a6 0x0 0x0 oops 6 4 java/lang/String 10 java/lang/String 16 java/util/jar/JavaUtilJarAccessImpl 36 java/util/jar/Manifest 46 java/util/jar/Attributes 52 java/lang/String
+ciMethodData java/util/jar/JavaUtilJarAccessImpl getTrustedAttributes (Ljava/util/jar/Manifest;Ljava/lang/String;)Ljava/util/jar/Attributes; 2 2726 orig 264 8 206 139 109 0 0 0 0 88 104 97 23 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 49 1 0 0 169 75 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 6 0x20005 0x0 0x17da2510 0x975 0x0 0x0 oops 1 2 java/util/jar/Manifest
+ciMethodData java/util/jar/Manifest getTrustedAttributes (Ljava/lang/String;)Ljava/util/jar/Attributes; 2 2726 orig 264 8 206 139 109 0 0 0 0 24 248 73 23 0 0 0 0 192 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 49 1 0 0 169 75 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 10 0 2 0 0 0 112 1 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 46 0x20005 0x0 0x17da2510 0x975 0x0 0x0 0x70007 0x975 0x140 0x0 0xe0007 0x0 0x120 0x0 0x160005 0x0 0x0 0x0 0x0 0x0 0x190007 0x0 0xd0 0x0 0x240002 0x0 0x290005 0x0 0x0 0x0 0x0 0x0 0x2d0005 0x0 0x0 0x0 0x0 0x0 0x300005 0x0 0x0 0x0 0x0 0x0 0x330002 0x0 oops 1 2 java/util/jar/Manifest
+ciMethodData java/net/URLClassLoader definePackageInternal (Ljava/lang/String;Ljava/util/jar/Manifest;Ljava/net/URL;)V 2 2726 orig 264 8 206 139 109 0 0 0 0 104 161 73 23 0 0 0 0 32 3 0 0 200 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 69 1 0 0 9 75 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 12 0 2 0 0 0 192 1 0 0 255 255 255 255 2 0 4 0 0 0 0 0 data 56 0x40002 0x961 0x70007 0x894 0x1b0 0xcd 0xb0007 0x0 0x68 0xcd 0x120005 0x0 0x17da2630 0xc8 0x17da23f0 0x5 0x160003 0xcd 0x48 0x220005 0x0 0x0 0x0 0x0 0x0 0x260003 0xcd 0xf8 0x2f0002 0x0 0x320007 0x0 0xd0 0x0 0x3d0002 0x0 0x420005 0x0 0x0 0x0 0x0 0x0 0x460005 0x0 0x0 0x0 0x0 0x0 0x490005 0x0 0x0 0x0 0x0 0x0 0x4c0002 0x0 oops 2 12 sun/misc/Launcher$AppClassLoader 14 java/net/URLClassLoader
+ciMethodData java/util/jar/Manifest <init> (Ljava/io/InputStream;)V 1 5 orig 264 8 206 139 109 0 0 0 0 224 243 73 23 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 17 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 3 0 0 0 0 0 data 2 0x30002 0x2 oops 0
+ciMethodData java/lang/ref/SoftReference <init> (Ljava/lang/Object;)V 1 760 orig 264 8 206 139 109 0 0 0 0 40 139 67 23 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 228 0 0 0 161 16 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 7 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 2 0x20002 0x214 oops 0
+ciMethodData java/util/jar/Manifest getAttributes (Ljava/lang/String;)Ljava/util/jar/Attributes; 2 2726 orig 264 8 206 139 109 0 0 0 0 72 247 73 23 0 0 0 0 224 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 176 1 0 0 177 71 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 144 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 18 0x10005 0x0 0x17da2510 0x8f6 0x0 0x0 0x50005 0x0 0x1a1f9b60 0x8f6 0x0 0x0 0xa0104 0x0 0x0 0x0 0x0 0x0 oops 2 2 java/util/jar/Manifest 8 java/util/HashMap
+ciMethodData java/net/URLClassLoader getAndVerifyPackage (Ljava/lang/String;Ljava/util/jar/Manifest;Ljava/net/URL;)Ljava/lang/Package; 2 2726 orig 264 8 206 139 109 0 0 0 0 112 160 73 23 0 0 0 0 96 4 0 0 192 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 197 1 0 0 9 71 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 22 0 2 0 0 0 0 3 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 96 0x20005 0x0 0x17da2630 0x8c6 0x17da23f0 0x1b 0x90007 0xbf 0x2d0 0x822 0xe0005 0x0 0x1a1fe7b0 0x822 0x0 0x0 0x110007 0x822 0x150 0x0 0x170005 0x0 0x0 0x0 0x0 0x0 0x1a0007 0x0 0x230 0x0 0x250002 0x0 0x2a0005 0x0 0x0 0x0 0x0 0x0 0x2e0005 0x0 0x0 0x0 0x0 0x0 0x330005 0x0 0x0 0x0 0x0 0x0 0x360005 0x0 0x0 0x0 0x0 0x0 0x390002 0x0 0x3e0007 0x0 0x130 0x822 0x440002 0x822 0x470007 0x822 0x100 0x0 0x520002 0x0 0x570005 0x0 0x0 0x0 0x0 0x0 0x5b0005 0x0 0x0 0x0 0x0 0x0 0x600005 0x0 0x0 0x0 0x0 0x0 0x630005 0x0 0x0 0x0 0x0 0x0 0x660002 0x0 oops 3 2 sun/misc/Launcher$AppClassLoader 4 java/net/URLClassLoader 12 java/lang/Package
+ciMethodData java/net/URLClassLoader definePackage (Ljava/lang/String;Ljava/util/jar/Manifest;Ljava/net/URL;)Ljava/lang/Package; 1 255 orig 264 8 206 139 109 0 0 0 0 104 164 73 23 0 0 0 0 112 6 0 0 192 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 0 0 0 249 5 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 5 0 0 255 255 255 255 2 0 24 0 0 0 0 0 data 162 0x180002 0xbf 0x210005 0xbf 0x0 0x0 0x0 0x0 0x260005 0xbf 0x0 0x0 0x0 0x0 0x290005 0x0 0x17dcf630 0xbf 0x0 0x0 0x320007 0xbf 0x170 0x0 0x3a0005 0x0 0x0 0x0 0x0 0x0 0x440005 0x0 0x0 0x0 0x0 0x0 0x4e0005 0x0 0x0 0x0 0x0 0x0 0x580005 0x0 0x0 0x0 0x0 0x0 0x620005 0x0 0x0 0x0 0x0 0x0 0x6c0005 0x0 0x0 0x0 0x0 0x0 0x760005 0x0 0x0 0x0 0x0 0x0 0x7c0005 0x0 0x17da2510 0xbf 0x0 0x0 0x830007 0x0 0x250 0xbf 0x880007 0x0 0x50 0xbf 0x900005 0x0 0x1a1f9860 0xbf 0x0 0x0 0x970007 0x0 0x50 0xbf 0x9f0005 0x0 0x1a1f9860 0xbf 0x0 0x0 0xa60007 0x0 0x50 0xbf 0xae0005 0x0 0x1a1f9860 0xbf 0x0 0x0 0xb50007 0x0 0x50 0xbf 0xbd0005 0x0 0x1a1f9860 0xbf 0x0 0x0 0xc40007 0x0 0x50 0xbf 0xcc0005 0x0 0x1a1f9860 0xbf 0x0 0x0 0xd30007 0x0 0x50 0xbf 0xdb0005 0x0 0x1a1f9860 0xbf 0x0 0x0 0xe20007 0x0 0x50 0xbf 0xea0005 0x0 0x1a1f9860 0xbf 0x0 0x0 0xf30005 0xbf 0x0 0x0 0x0 0x0 0xf60007 0xbf 0x20 0x0 0x10c0005 0x0 0x17da2630 0xba 0x17da23f0 0x5 oops 11 16 java/util/jar/JavaUtilJarAccessImpl 68 java/util/jar/Manifest 82 java/util/jar/Attributes 92 java/util/jar/Attributes 102 java/util/jar/Attributes 112 java/util/jar/Attributes 122 java/util/jar/Attributes 132 java/util/jar/Attributes 142 java/util/jar/Attributes 158 sun/misc/Launcher$AppClassLoader 160 java/net/URLClassLoader
+ciMethodData sun/misc/URLClassPath$JarLoader$2 getCodeSourceURL ()Ljava/net/URL; 2 2726 orig 264 8 206 139 109 0 0 0 0 64 234 99 23 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 49 69 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 4 0 0 0 0 0 data 2 0x40002 0x8a6 oops 0
+ciMethodData sun/misc/URLClassPath$JarLoader$2 getManifest ()Ljava/util/jar/Manifest; 2 2726 orig 264 8 206 139 109 0 0 0 0 40 236 99 23 0 0 0 0 216 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 49 69 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 7 0 2 0 0 0 144 0 0 0 255 255 255 255 2 0 0 0 0 0 0 0 data 18 0x2 0x8a6 0x70002 0x8a6 0xa0005 0x0 0x17dcf630 0x8a6 0x0 0x0 0x130002 0x8a6 0x160005 0x0 0x17dcefb0 0x8a6 0x0 0x0 oops 2 6 java/util/jar/JavaUtilJarAccessImpl 14 java/util/jar/JarFile
+ciMethodData java/util/jar/JavaUtilJarAccessImpl ensureInitialization (Ljava/util/jar/JarFile;)V 2 2726 orig 264 8 206 139 109 0 0 0 0 240 104 97 23 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 49 69 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 6 0x10005 0x0 0x17dcefb0 0x8a6 0x0 0x0 oops 1 2 java/util/jar/JarFile
+ciMethodData java/util/jar/JarFile ensureInitialization ()V 2 2726 orig 264 8 206 139 109 0 0 0 0 184 67 97 23 0 0 0 0 168 1 0 0 40 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 49 69 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 11 0 2 0 0 0 136 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 17 0x10002 0x8a6 0x40003 0x8a6 0x28 0xd0002 0x0 0x150007 0x8a6 0x50 0x0 0x1c0007 0x0 0x30 0x0 0x200002 0x0 oops 0
+ciMethodData java/util/jar/Attributes$Name equals (Ljava/lang/Object;)Z 1 762 orig 264 8 206 139 109 0 0 0 0 80 91 100 23 0 0 0 0 56 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 193 15 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 2 0 0 0 232 0 0 0 255 255 255 255 4 0 1 0 0 0 0 0 data 29 0x10004 0x0 0x1a2c0ba0 0x1f8 0x0 0x0 0x40007 0x0 0xb8 0x1f8 0x110004 0x0 0x1a2c0ba0 0x1f8 0x0 0x0 0x170005 0x0 0x1a172530 0x1f8 0x0 0x0 0x1c0007 0x0 0x38 0x1f8 0x200003 0x1f8 0x18 oops 3 2 java/util/jar/Attributes$Name 12 java/util/jar/Attributes$Name 18 sun/misc/ASCIICaseInsensitiveComparator
+instanceKlass java/util/zip/ZipUtils
+instanceKlass java/util/AbstractMap$SimpleEntry
+instanceKlass gnu/trove/THashMap$Entry
+instanceKlass org/jetbrains/kotlin/com/intellij/util/containers/FactoryMap$$Lambda$93
+instanceKlass org/jetbrains/kotlin/com/intellij/util/containers/FactoryMap
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/vfs/impl/jar/CoreJarHandler$$Lambda$92
+instanceKlass org/jetbrains/kotlin/com/intellij/util/text/ByteArrayCharSequence
+instanceKlass org/jetbrains/kotlin/com/intellij/util/text/CharArrayExternalizable
+instanceKlass org/jetbrains/kotlin/com/intellij/util/text/ImmutableCharSequence
+instanceKlass org/jetbrains/kotlin/com/intellij/util/text/CharArrayUtil
+instanceKlass java/util/zip/ZipFile$ZipEntryIterator
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/vfs/impl/ArchiveHandler$EntryInfo
+instanceKlass org/jetbrains/kotlin/com/intellij/util/containers/ShareableKey
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/util/io/FileAttributes
+instanceKlass java/nio/file/attribute/FileTime
+instanceKlass sun/nio/fs/WindowsNativeDispatcher$BackupResult
+instanceKlass sun/nio/fs/WindowsNativeDispatcher$CompletionStatus
+instanceKlass sun/nio/fs/WindowsNativeDispatcher$AclInformation
+instanceKlass sun/nio/fs/WindowsNativeDispatcher$Account
+instanceKlass sun/nio/fs/WindowsNativeDispatcher$DiskFreeSpace
+instanceKlass sun/nio/fs/WindowsNativeDispatcher$VolumeInformation
+instanceKlass sun/nio/fs/WindowsNativeDispatcher$FirstStream
+instanceKlass sun/nio/fs/WindowsNativeDispatcher$FirstFile
+instanceKlass sun/nio/fs/WindowsNativeDispatcher$1
+instanceKlass sun/nio/fs/WindowsNativeDispatcher
+instanceKlass sun/nio/fs/NativeBuffer$Deallocator
+instanceKlass sun/nio/fs/NativeBuffer
+instanceKlass sun/nio/fs/NativeBuffers
+instanceKlass sun/nio/fs/WindowsFileAttributes
+instanceKlass sun/nio/fs/AbstractBasicFileAttributeView
+instanceKlass sun/nio/fs/DynamicFileAttributeView
+instanceKlass sun/nio/fs/WindowsFileAttributeViews
+instanceKlass java/nio/file/attribute/DosFileAttributeView
+instanceKlass java/nio/file/attribute/BasicFileAttributeView
+instanceKlass java/nio/file/attribute/FileAttributeView
+instanceKlass java/nio/file/attribute/AttributeView
+instanceKlass java/nio/file/Files
+instanceKlass java/nio/file/attribute/DosFileAttributes
+instanceKlass java/nio/file/attribute/BasicFileAttributes
+instanceKlass java/nio/file/CopyOption
+instanceKlass java/nio/file/OpenOption
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/util/io/FileSystemUtil$Nio2MediatorImpl
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/util/io/FileSystemUtil$Mediator
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/util/io/FileSystemUtil
+instanceKlass org/jetbrains/kotlin/com/intellij/util/containers/hash/LinkedHashMap$Entry
+instanceKlass org/jetbrains/kotlin/com/intellij/util/containers/hash/HashUtil
+instanceKlass org/jetbrains/kotlin/com/intellij/util/containers/SLRUMap
+instanceKlass org/jetbrains/kotlin/com/intellij/util/io/ResourceHandle
+instanceKlass org/jetbrains/kotlin/com/intellij/util/io/FileAccessorCache
+instanceKlass org/jetbrains/kotlin/com/intellij/util/containers/hash/EqualityPolicy
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/vfs/impl/AddonlyKeylessHash$KeyValueMapper
+instanceKlass java/net/InetAddress
+instanceKlass org/jetbrains/kotlin/storage/LockBasedStorageManager$MapBasedMemoizedFunction
+instanceKlass org/jetbrains/kotlin/storage/NoLock
+instanceKlass org/jetbrains/kotlin/storage/LockBasedStorageManager$ExceptionHandlingStrategy$1
+instanceKlass org/jetbrains/kotlin/storage/LockBasedStorageManager$ExceptionHandlingStrategy
+instanceKlass org/jetbrains/kotlin/storage/CacheWithNullableValues
+instanceKlass org/jetbrains/kotlin/storage/CacheWithNotNullValues
+instanceKlass org/jetbrains/kotlin/storage/MemoizedFunctionToNotNull
+instanceKlass org/jetbrains/kotlin/storage/MemoizedFunctionToNullable
+instanceKlass org/jetbrains/kotlin/storage/NullableLazyValue
+instanceKlass org/jetbrains/kotlin/storage/NotNullLazyValue
+instanceKlass org/jetbrains/kotlin/storage/LockBasedStorageManager
+instanceKlass org/jetbrains/kotlin/storage/StorageManager
+instanceKlass org/jetbrains/kotlin/cli/jvm/modules/JavaModuleGraph
+instanceKlass org/jetbrains/kotlin/cli/jvm/compiler/ClasspathRootsResolver$Companion
+instanceKlass org/jetbrains/kotlin/cli/jvm/compiler/ClasspathRootsResolver
+instanceKlass org/jetbrains/kotlin/cli/jvm/modules/CliJavaModuleFinder
+instanceKlass org/jetbrains/kotlin/resolve/jvm/modules/JavaModuleFinder
+instanceKlass kotlin/comparisons/ComparisonsKt__ComparisonsKt
+instanceKlass org/jetbrains/kotlin/cli/jvm/compiler/KotlinCoreEnvironment$$special$$inlined$sortBy$1
+instanceKlass org/jetbrains/kotlin/psi/UserDataProperty
+instanceKlass org/jetbrains/kotlin/resolve/multiplatform/IsCommonSourceKt
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/util/PsiUtilCore$NullPsiElement
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/util/PsiUtilCore
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/source/SubstrateRef
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/source/PsiFileImpl$$Lambda$91
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/source/FileTrees
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/source/StubbedSpine
+instanceKlass org/jetbrains/kotlin/psi/KtDeclarationContainer
+instanceKlass org/jetbrains/kotlin/psi/KtAnnotated
+instanceKlass org/jetbrains/kotlin/psi/KtElement
+instanceKlass org/jetbrains/kotlin/psi/KtPureElement
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiModifiableCodeBlock
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiClassOwner
+instanceKlass org/jetbrains/kotlin/com/intellij/util/ConcurrencyUtil$$Lambda$90
+instanceKlass java/util/function/UnaryOperator
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/AbstractFileViewProvider$VirtualFileContent
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiLock
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiLargeBinaryFile
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiLargeFile
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiBinaryFile
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/AbstractFileViewProvider$Content
+instanceKlass java/util/stream/Sink$ChainedReference
+instanceKlass java/util/stream/ReduceOps$Box
+instanceKlass java/util/stream/ReduceOps$AccumulatingSink
+instanceKlass java/util/stream/TerminalSink
+instanceKlass java/util/stream/ReduceOps$ReduceOp
+instanceKlass java/util/stream/ReduceOps
+instanceKlass java/util/stream/Collectors$$Lambda$89
+instanceKlass java/util/stream/Collectors$$Lambda$88
+instanceKlass java/util/function/BinaryOperator
+instanceKlass java/util/stream/Collectors$$Lambda$87
+instanceKlass java/util/function/BiConsumer
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass java/util/stream/Collectors$$Lambda$86
+instanceKlass java/util/stream/Collectors$CollectorImpl
+instanceKlass java/util/stream/Collector
+instanceKlass java/util/stream/Collectors
+instanceKlass org/jetbrains/kotlin/com/intellij/lang/MetaLanguage$$Lambda$85
+instanceKlass org/jetbrains/kotlin/com/intellij/lang/LanguageUtil$$Lambda$84
+instanceKlass org/jetbrains/kotlin/com/intellij/lang/LanguageUtil
+instanceKlass org/jetbrains/kotlin/com/intellij/injected/editor/VirtualFileWindow
+instanceKlass kotlin/collections/AbstractIterator$WhenMappings
+instanceKlass kotlin/io/FileTreeWalk$WalkState
+instanceKlass kotlin/collections/AbstractIterator
+instanceKlass kotlin/io/FileTreeWalk
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/vfs/local/CoreLocalVirtualFile$$Lambda$83
+instanceKlass java/util/Formattable
+instanceKlass java/util/Formatter$Conversion
+instanceKlass java/util/Formatter$Flags
+instanceKlass java/util/Formatter$FormatSpecifier
+instanceKlass java/util/Formatter$FixedString
+instanceKlass java/util/Formatter$FormatString
+instanceKlass java/util/Locale$1
+instanceKlass java/util/Formatter
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass org/jetbrains/kotlin/extensions/PreprocessedFileCreator
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/util/KeyedExtensionCollector$$Lambda$82
+instanceKlass org/jetbrains/kotlin/cli/jvm/compiler/CoreEnvironmentUtilsKt
+instanceKlass org/jetbrains/kotlin/cli/jvm/compiler/CliModuleAnnotationsResolver
+instanceKlass org/jetbrains/kotlin/resolve/ModuleAnnotationsResolver
+instanceKlass org/jetbrains/kotlin/com/intellij/util/CachedValueBase$Data
+instanceKlass org/jetbrains/kotlin/com/intellij/util/CachedValueBase
+instanceKlass org/jetbrains/kotlin/asJava/classes/FacadeCache$cachedValue$1
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/util/CachedValueProvider
+instanceKlass org/jetbrains/kotlin/asJava/classes/FacadeCache$Companion
+instanceKlass org/jetbrains/kotlin/asJava/classes/FacadeCache
+instanceKlass org/jetbrains/kotlin/resolve/jvm/KotlinJavaPsiFacade$1
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiElement$$Lambda$81
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/ElementBase$$Lambda$80
+instanceKlass sun/invoke/util/VerifyAccess$1
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/ElementBase$ElementIconRequest
+instanceKlass javax/swing/Icon
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiModifierList
+instanceKlass org/jetbrains/kotlin/load/java/structure/JavaClass
+instanceKlass org/jetbrains/kotlin/load/java/structure/JavaTypeParameterListOwner
+instanceKlass org/jetbrains/kotlin/load/java/structure/JavaModifierListOwner
+instanceKlass org/jetbrains/kotlin/load/java/structure/JavaClassifier
+instanceKlass org/jetbrains/kotlin/load/java/structure/JavaNamedElement
+instanceKlass org/jetbrains/kotlin/load/java/structure/JavaAnnotationOwner
+instanceKlass org/jetbrains/kotlin/load/java/structure/JavaElement
+instanceKlass org/jetbrains/kotlin/resolve/jvm/KotlinJavaPsiFacade$KotlinPsiElementFinderWrapperImpl
+instanceKlass org/jetbrains/kotlin/resolve/jvm/KotlinJavaPsiFacade$KotlinPsiElementFinderWrapper
+instanceKlass org/jetbrains/kotlin/resolve/jvm/KotlinJavaPsiFacade
+instanceKlass org/jetbrains/kotlin/cli/common/CliModuleVisibilityManagerImpl
+instanceKlass org/jetbrains/kotlin/load/kotlin/ModuleVisibilityManager
+instanceKlass org/jetbrains/kotlin/resolve/lazy/declarations/DeclarationProviderFactoryService$Companion
+instanceKlass org/jetbrains/kotlin/resolve/lazy/declarations/DeclarationProviderFactoryService
+instanceKlass org/jetbrains/kotlin/android/synthetic/res/AndroidPackageFragmentProviderExtension
+instanceKlass org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidOnDestroyClassBuilderInterceptorExtension
+instanceKlass org/jetbrains/kotlin/android/synthetic/AndroidExtensionPropertiesComponentContainerContributor
+instanceKlass org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension$Companion
+instanceKlass org/jetbrains/kotlin/resolve/scopes/ResolutionScope
+instanceKlass org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension
+instanceKlass com/sun/org/apache/xerces/internal/parsers/AbstractSAXParser$AttributesProxy
+instanceKlass org/xml/sax/ext/Attributes2
+instanceKlass org/xml/sax/Attributes
+instanceKlass org/xml/sax/AttributeList
+instanceKlass com/sun/org/apache/xerces/internal/util/PropertyState
+instanceKlass com/sun/org/apache/xerces/internal/util/FeatureState
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLVersionDetector
+instanceKlass com/sun/org/apache/xerces/internal/impl/validation/ValidationManager
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/dtd/NMTOKENDatatypeValidator
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/dtd/NOTATIONDatatypeValidator
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/dtd/ENTITYDatatypeValidator
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/dtd/ListDatatypeValidator
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/dtd/IDREFDatatypeValidator
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/dtd/IDDatatypeValidator
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/dtd/StringDatatypeValidator
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/DatatypeValidator
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/DTDDVFactory
+instanceKlass com/sun/org/apache/xerces/internal/impl/dtd/DTDGrammarBucket
+instanceKlass com/sun/org/apache/xerces/internal/impl/dtd/XMLAttributeDecl
+instanceKlass com/sun/org/apache/xerces/internal/impl/dtd/XMLSimpleType
+instanceKlass com/sun/org/apache/xerces/internal/impl/dtd/XMLElementDecl
+instanceKlass com/sun/org/apache/xerces/internal/impl/validation/ValidationState
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/ValidationContext
+instanceKlass com/sun/org/apache/xerces/internal/impl/dtd/XMLDTDValidator
+instanceKlass com/sun/org/apache/xerces/internal/impl/RevalidationHandler
+instanceKlass com/sun/org/apache/xerces/internal/impl/dtd/XMLDTDValidatorFilter
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLDocumentFilter
+instanceKlass com/sun/org/apache/xerces/internal/impl/dtd/XMLEntityDecl
+instanceKlass com/sun/org/apache/xerces/internal/impl/dtd/XMLDTDProcessor
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLDTDContentModelFilter
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLDTDFilter
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLDTDScanner
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLDTDContentModelSource
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLDTDSource
+instanceKlass jdk/xml/internal/SecuritySupport$2
+instanceKlass jdk/xml/internal/SecuritySupport$1
+instanceKlass jdk/xml/internal/SecuritySupport
+instanceKlass jdk/xml/internal/JdkXmlUtils
+instanceKlass com/sun/org/apache/xerces/internal/util/ParserConfigurationSettings
+instanceKlass com/sun/org/apache/xerces/internal/parsers/XML11Configurable
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLPullParserConfiguration
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLParserConfiguration
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLComponentManager
+instanceKlass com/sun/org/apache/xerces/internal/parsers/XMLParser
+instanceKlass com/sun/org/apache/xerces/internal/xni/XMLDTDContentModelHandler
+instanceKlass com/sun/org/apache/xerces/internal/xni/XMLDTDHandler
+instanceKlass com/sun/org/apache/xerces/internal/xni/XMLDocumentHandler
+instanceKlass org/xml/sax/XMLReader
+instanceKlass org/xml/sax/Parser
+instanceKlass javax/xml/parsers/SAXParser
+instanceKlass com/sun/org/apache/xerces/internal/xs/PSVIProvider
+instanceKlass com/sun/org/apache/xerces/internal/jaxp/JAXPConstants
+instanceKlass javax/xml/parsers/SecuritySupport$1
+instanceKlass javax/xml/parsers/FactoryFinder$1
+instanceKlass javax/xml/parsers/SecuritySupport$5
+instanceKlass javax/xml/parsers/SecuritySupport$2
+instanceKlass javax/xml/parsers/SecuritySupport
+instanceKlass javax/xml/parsers/FactoryFinder
+instanceKlass javax/xml/parsers/SAXParserFactory
+instanceKlass org/jetbrains/kotlin/android/synthetic/res/AndroidModule
+instanceKlass org/jetbrains/kotlin/android/synthetic/res/AndroidLayoutXmlFileManager$Companion
+instanceKlass org/jetbrains/kotlin/android/synthetic/res/AndroidLayoutXmlFileManager
+instanceKlass kotlinx/android/extensions/CacheImplementation$Companion
+instanceKlass org/jetbrains/kotlin/android/synthetic/res/AndroidVariant$Companion
+instanceKlass org/jetbrains/kotlin/android/synthetic/res/AndroidVariant
+instanceKlass org/jetbrains/kotlin/android/synthetic/codegen/ParcelableClinitClassBuilderInterceptorExtension
+instanceKlass org/jetbrains/kotlin/android/parcel/ParcelableResolveExtension$Companion
+instanceKlass org/jetbrains/kotlin/android/parcel/ParcelableResolveExtension
+instanceKlass org/jetbrains/kotlin/name/FqNameUnsafe$1
+instanceKlass org/jetbrains/kotlin/name/FqNameUnsafe
+instanceKlass org/jetbrains/kotlin/name/FqName
+instanceKlass org/jetbrains/kotlin/android/parcel/ParcelableCodegenExtension$Companion
+instanceKlass org/jetbrains/kotlin/android/parcel/ParcelableCodegenExtension
+instanceKlass org/jetbrains/kotlin/extensions/internal/CallResolutionInterceptorExtension
+instanceKlass org/jetbrains/kotlin/extensions/internal/CandidateInterceptor
+instanceKlass org/jetbrains/kotlin/extensions/internal/TypeResolutionInterceptorExtension
+instanceKlass org/jetbrains/kotlin/extensions/internal/TypeResolutionInterceptor
+instanceKlass org/jetbrains/kotlin/cli/common/extensions/ShellExtension
+instanceKlass org/jetbrains/kotlin/cli/common/extensions/ScriptEvaluationExtension
+instanceKlass org/jetbrains/kotlin/backend/common/extensions/IrGenerationExtension
+instanceKlass org/jetbrains/kotlin/resolve/extensions/ExtraImportsProviderExtension
+instanceKlass org/jetbrains/kotlin/extensions/CollectAdditionalSourcesExtension
+instanceKlass org/jetbrains/kotlin/extensions/CompilerConfigurationExtension
+instanceKlass org/jetbrains/kotlin/js/translate/extensions/JsSyntheticTranslateExtension
+instanceKlass org/jetbrains/kotlin/extensions/PreprocessedVirtualFileFactoryExtension
+instanceKlass org/jetbrains/kotlin/extensions/DeclarationAttributeAltererExtension
+instanceKlass org/jetbrains/kotlin/extensions/StorageComponentContainerContributor
+instanceKlass org/jetbrains/kotlin/resolve/jvm/extensions/PackageFragmentProviderExtension
+instanceKlass org/jetbrains/kotlin/resolve/jvm/extensions/AnalysisHandlerExtension
+instanceKlass org/jetbrains/kotlin/codegen/extensions/ClassBuilderInterceptorExtension
+instanceKlass org/jetbrains/kotlin/resolve/extensions/SyntheticResolveExtension
+instanceKlass org/jetbrains/kotlin/extensions/ProjectExtensionDescriptor
+instanceKlass org/jetbrains/kotlin/codegen/extensions/ExpressionCodegenExtension
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/vfs/PersistentFSConstants
+instanceKlass org/jetbrains/kotlin/com/intellij/lang/jvm/facade/JvmFacadeImpl$$Lambda$79
+instanceKlass org/jetbrains/kotlin/com/intellij/util/keyFMap/ArrayBackedFMap
+instanceKlass org/jetbrains/kotlin/com/intellij/util/keyFMap/PairElementsFMap
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/source/DummyHolderFactory$DefaultFactory
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/source/DummyHolderFactory
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiImportHolder
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/source/PsiFileWithStubSupport
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/PsiFileEx
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/ui/Queryable
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/source/JavaDummyHolderFactory
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/JavaPsiFacadeImpl$1
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/JavaPsiFacadeImpl$$Lambda$78
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/util/NotNullFactory
+instanceKlass org/jetbrains/kotlin/com/intellij/lang/jvm/facade/JvmFacadeImpl
+instanceKlass org/jetbrains/kotlin/com/intellij/lang/jvm/facade/JvmFacade
+instanceKlass org/jetbrains/kotlin/com/intellij/util/containers/ConcurrentRefValueHashMap$ValueReference
+instanceKlass org/jetbrains/kotlin/com/intellij/util/containers/ConcurrentRefValueHashMap
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/source/HolderFactory
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiConstantEvaluationHelper
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/JavaPsiFacade
+instanceKlass org/jetbrains/kotlin/cli/jvm/compiler/MockInferredAnnotationsManager$Companion
+instanceKlass org/jetbrains/kotlin/com/intellij/codeInsight/InferredAnnotationsManager
+instanceKlass org/jetbrains/kotlin/com/intellij/codeInsight/ExternalAnnotationsListener
+instanceKlass org/jetbrains/kotlin/com/intellij/codeInsight/ExternalAnnotationsManager
+instanceKlass org/jetbrains/kotlin/com/intellij/util/Processor
+instanceKlass org/jetbrains/kotlin/asJava/finder/JavaElementFinder$Companion
+instanceKlass org/jetbrains/kotlin/resolve/jvm/KotlinFinderMarker
+instanceKlass org/jetbrains/kotlin/asJava/KotlinAsJavaSupport$Companion
+instanceKlass org/jetbrains/kotlin/asJava/KotlinAsJavaSupport
+instanceKlass org/jetbrains/kotlin/asJava/LightClassGenerationSupport$Companion
+instanceKlass org/jetbrains/kotlin/asJava/LightClassGenerationSupport
+instanceKlass kotlin/properties/NotNullVar
+instanceKlass kotlin/properties/Delegates
+instanceKlass org/jetbrains/kotlin/cli/jvm/compiler/CliTraceHolder
+instanceKlass org/jetbrains/kotlin/resolve/CodeAnalyzerInitializer
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/JvmPsiConversionHelperImpl
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/JvmPsiConversionHelper
+instanceKlass org/jetbrains/kotlin/load/java/structure/impl/classFiles/BinaryClassSignatureParser
+instanceKlass org/jetbrains/kotlin/com/intellij/util/keyFMap/OneElementFMap
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/search/ProjectScope$$Lambda$77
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/search/ProjectScope$$Lambda$76
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/search/ProjectScope$$Lambda$75
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/search/ProjectScope$$Lambda$74
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/search/ProjectScope$$Lambda$73
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/search/ProjectScope
+instanceKlass org/jetbrains/kotlin/cli/jvm/compiler/KotlinCliJavaFileManagerImpl$Companion
+instanceKlass org/jetbrains/kotlin/com/intellij/core/CoreJavaFileManager
+instanceKlass org/jetbrains/kotlin/resolve/jvm/KotlinCliJavaFileManager
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/controlFlow/ControlFlowFactory$$Lambda$72
+instanceKlass org/jetbrains/kotlin/com/intellij/util/containers/ConcurrentWeakKeySoftValueHashMap$$Lambda$71
+instanceKlass org/jetbrains/kotlin/com/intellij/util/containers/ConcurrentWeakKeySoftValueHashMap$HardKey
+instanceKlass org/jetbrains/kotlin/com/intellij/util/containers/ConcurrentWeakKeySoftValueHashMap$KeyReference
+instanceKlass org/jetbrains/kotlin/com/intellij/util/containers/ConcurrentWeakKeySoftValueHashMap
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/controlFlow/ControlFlow
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/controlFlow/ControlFlowFactory
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/codeStyle/SuggestedNameInfo
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/codeStyle/JavaCodeStyleManager
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/codeStyle/JavaCodeStyleSettingsFacade
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/source/resolve/JavaResolveCache
+instanceKlass org/jetbrains/kotlin/com/intellij/BundleBase
+instanceKlass java/util/ResourceBundle$Control$1
+instanceKlass java/util/ResourceBundle$CacheKeyReference
+instanceKlass java/util/ResourceBundle$CacheKey
+instanceKlass java/util/ResourceBundle$Control
+instanceKlass java/util/spi/ResourceBundleControlProvider
+instanceKlass java/util/ResourceBundle
+instanceKlass org/jetbrains/kotlin/com/intellij/core/JavaCoreBundle
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/roots/LanguageLevelProjectExtension
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/scope/processor/FilterScopeProcessor
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/scope/PsiScopeProcessor
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/scope/NameHint
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/scope/ElementClassHint
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiInferenceHelper
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/source/resolve/PsiResolveHelperImpl
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiResolveHelper
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/JavaPsiImplementationHelper
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/PsiElementFactoryImpl$$Lambda$70
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/PsiElementFactoryImpl$$Lambda$69
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiType$$Lambda$68
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/TypeAnnotationProvider$1
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/TypeAnnotationProvider$Static
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/TypeAnnotationProvider
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiAnnotation$$Lambda$67
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiAnnotation
+instanceKlass org/jetbrains/kotlin/com/intellij/lang/jvm/types/JvmPrimitiveTypeKind
+instanceKlass org/jetbrains/kotlin/com/intellij/lang/jvm/JvmAnnotation
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/PsiJavaParserFacadeImpl$$Lambda$66
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/PsiJavaParserFacadeImpl$$Lambda$65
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/PsiJavaParserFacadeImpl$$Lambda$64
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/PsiJavaParserFacadeImpl$$Lambda$63
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/PsiJavaParserFacadeImpl$$Lambda$62
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/PsiJavaParserFacadeImpl$$Lambda$61
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/PsiJavaParserFacadeImpl$$Lambda$60
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/PsiJavaParserFacadeImpl$$Lambda$59
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/PsiJavaParserFacadeImpl$$Lambda$58
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/PsiJavaParserFacadeImpl$$Lambda$57
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/PsiJavaParserFacadeImpl$$Lambda$56
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/PsiJavaParserFacadeImpl$$Lambda$55
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/PsiJavaParserFacadeImpl$$Lambda$54
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/PsiJavaParserFacadeImpl$$Lambda$53
+instanceKlass org/jetbrains/kotlin/com/intellij/lang/java/parser/JavaParserUtil$ParserWrapper
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiImportStatementBase
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiTypeElement
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiReferenceExpression
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiExpression
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiAnnotationMemberValue
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiJavaCodeReferenceElement
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiQualifiedReferenceElement
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiQualifiedReference
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiJavaReference
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiPolyVariantReference
+instanceKlass org/jetbrains/kotlin/com/intellij/lang/jvm/types/JvmPrimitiveType
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/PsiJavaParserFacadeImpl
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiElementFactory
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiJavaParserFacade
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/JVMElementFactory
+instanceKlass org/jetbrains/kotlin/com/intellij/lang/injection/InjectedLanguageManager
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/search/SearchScope
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/search/ProjectAwareFileFilter
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiDirectory
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/file/PsiDirectoryFactory
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/util/ParameterizedCachedValue
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/util/CachedValue
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/PsiCachedValuesFactory
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/util/CachedValuesManager
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/source/tree/TreeElementVisitor
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiFileFactory
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/PsiDocumentManagerBase$$Lambda$52
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/PsiDocumentTransactionListener
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiTreeChangeAdapter
+instanceKlass org/jetbrains/kotlin/com/intellij/core/MockDocumentCommitProcessor
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/editor/event/DocumentListener$$Lambda$51
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/editor/ex/DocumentEx
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiRecursiveVisitor
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiElementVisitor
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiTreeChangeListener
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/editor/event/DocumentListener
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiDocumentManager
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/SmartPointerManager
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/PsiManagerImpl$$Lambda$50
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/file/impl/FileManagerImpl$1
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/util/LowMemoryWatcher$1
+instanceKlass org/jetbrains/kotlin/com/intellij/util/containers/UnsafeWeakList$$Lambda$49
+instanceKlass org/jetbrains/kotlin/com/intellij/util/containers/UnsafeWeakList$$Lambda$48
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/util/LowMemoryWatcher
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/file/impl/FileManagerImpl$$Lambda$47
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/file/impl/FileManagerImpl$$Lambda$46
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/util/Comparing
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/fileTypes/CharsetUtil$$Lambda$45
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/fileTypes/CharsetUtil
+instanceKlass org/jetbrains/kotlin/com/intellij/util/LocalTimeCounter
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/vfs/NonPhysicalFileSystem
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/file/impl/FileManagerImpl
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/vfs/VirtualFileFilter$2
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/vfs/VirtualFileFilter$1
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/vfs/VirtualFileFilter
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/AnyPsiChangeListener$Adapter
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/AnyPsiChangeListener
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/file/impl/FileManager
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/wm/ex/ProgressIndicatorEx
+instanceKlass java/util/concurrent/atomic/AtomicReferenceArray
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/ResolveResult
+instanceKlass org/jetbrains/kotlin/com/intellij/model/SymbolResolveResult
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/source/resolve/ResolveCache$StrongValueReference
+instanceKlass org/jetbrains/kotlin/com/intellij/util/containers/ConcurrentWeakKeySoftValueHashMap$ValueReference
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiReference
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/source/resolve/ResolveCache$AbstractResolver
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/source/resolve/ResolveCache
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/PsiModificationTrackerImpl$1
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/components/ServiceManager$$Lambda$44
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/project/DumbService$DumbModeListener
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/project/DumbService
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/util/PsiModificationTracker$Listener
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/PsiModificationTrackerImpl$$Lambda$43
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/PsiModificationTrackerImpl
+instanceKlass org/jetbrains/kotlin/com/intellij/lang/jvm/facade/JvmElementProvider
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/PsiElementFinder
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/PsiTreeChangePreprocessor
+instanceKlass org/jetbrains/kotlin/com/intellij/mock/MockProject$1
+instanceKlass java/util/concurrent/ConcurrentLinkedQueue$Node
+instanceKlass org/jetbrains/kotlin/com/intellij/diagnostic/StartUpMeasurer
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/roots/PackageIndex
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/file/impl/JavaFileManager
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/ResolveScopeManager
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/search/ProjectScopeBuilder
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/roots/FileIndexFacade
+instanceKlass org/jetbrains/kotlin/com/intellij/util/CachedValuesFactory
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/impl/DocumentCommitProcessor
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/util/PsiModificationTracker
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/project/Project
+instanceKlass org/jetbrains/kotlin/com/intellij/core/CoreProjectEnvironment
+instanceKlass org/jetbrains/kotlin/cli/jvm/compiler/KotlinCoreEnvironment$Companion$getOrCreateApplicationEnvironmentForProduction$1$2
+instanceKlass org/jetbrains/kotlin/cli/common/PropertiesKt
+instanceKlass org/jetbrains/kotlin/cli/jvm/compiler/KotlinCoreEnvironment$Companion$getOrCreateApplicationEnvironmentForProduction$1$1
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/application/TransactionGuard
+instanceKlass org/jetbrains/kotlin/com/intellij/psi/util/JavaClassSupers
+instanceKlass org/jetbrains/kotlin/load/kotlin/KotlinBinaryClassCache$Companion
+instanceKlass org/jetbrains/kotlin/load/kotlin/KotlinBinaryClassCache
+instanceKlass org/jetbrains/kotlin/psi/stubs/KotlinFileStub
+instanceKlass org/jetbrains/kotlin/parsing/KotlinParserDefinition$Companion
+instanceKlass org/jetbrains/kotlin/parsing/KotlinParserDefinition
+instanceKlass org/jetbrains/kotlin/com/intellij/util/SystemProperties
+instanceKlass gnu/trove/TIterator
+instanceKlass gnu/trove/THashMap$MapBackedView
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/util/Ref
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/extensions/PluginId$$Lambda$42
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass org/jetbrains/kotlin/com/intellij/util/xmlb/MapBinding
+instanceKlass org/jetbrains/kotlin/org/jdom/ContentList$CLIterator
+instanceKlass org/jetbrains/kotlin/org/jdom/AttributeList$ALIterator
+instanceKlass org/jetbrains/kotlin/com/intellij/util/xmlb/AccessorBindingWrapper
+instanceKlass org/jetbrains/kotlin/com/intellij/util/xmlb/TextBinding
+instanceKlass java/util/Date
+instanceKlass org/jetbrains/kotlin/com/intellij/util/xmlb/BasePrimitiveBinding
+instanceKlass org/jetbrains/kotlin/com/intellij/util/xmlb/MultiNodeBinding
+instanceKlass org/jetbrains/kotlin/com/intellij/serialization/ClassUtil
+instanceKlass org/jetbrains/kotlin/com/intellij/util/xmlb/annotations/Text
+instanceKlass org/jetbrains/kotlin/com/intellij/util/xmlb/annotations/XCollection
+instanceKlass org/jetbrains/kotlin/com/intellij/util/xmlb/Converter
+instanceKlass org/jetbrains/kotlin/com/intellij/util/xmlb/annotations/Attribute
+instanceKlass org/jetbrains/kotlin/com/intellij/serialization/FieldAccessor
+instanceKlass org/jetbrains/kotlin/com/intellij/serialization/MutableAccessor
+instanceKlass org/jetbrains/kotlin/com/intellij/util/xmlb/Accessor
+instanceKlass org/jetbrains/kotlin/com/intellij/util/xmlb/annotations/OptionTag
+instanceKlass org/jetbrains/kotlin/com/intellij/ide/plugins/PluginDependency
+instanceKlass org/jetbrains/kotlin/com/intellij/ide/plugins/IdeaVersionBean
+instanceKlass org/jetbrains/kotlin/com/intellij/ide/plugins/PluginVendor
+instanceKlass org/jetbrains/kotlin/com/intellij/ide/plugins/ProductDescriptor
+instanceKlass java/util/TreeMap$PrivateEntryIterator
+instanceKlass org/jetbrains/kotlin/com/intellij/serialization/PropertyCollector$NameAndIsSetter
+instanceKlass java/awt/geom/RectangularShape
+instanceKlass java/awt/Shape
+instanceKlass org/jetbrains/kotlin/com/intellij/util/xmlb/BeanBinding$XmlSerializerPropertyCollector$$Lambda$41
+instanceKlass org/jetbrains/kotlin/com/intellij/util/xmlb/annotations/Property
+instanceKlass org/jetbrains/kotlin/com/intellij/util/xmlb/annotations/Tag
+instanceKlass org/jetbrains/kotlin/com/intellij/util/xmlb/NestedBinding
+instanceKlass org/jetbrains/kotlin/com/intellij/serialization/PropertyCollector
+instanceKlass org/jetbrains/kotlin/com/intellij/util/xmlb/NotNullDeserializeBinding
+instanceKlass org/jetbrains/kotlin/com/intellij/util/xmlb/Binding
+instanceKlass org/jetbrains/kotlin/com/intellij/util/xmlb/XmlSerializerImpl$XmlSerializerBase
+instanceKlass org/jetbrains/kotlin/com/intellij/util/xmlb/Serializer
+instanceKlass org/jetbrains/kotlin/com/intellij/util/xmlb/XmlSerializerImpl
+instanceKlass org/jetbrains/kotlin/com/intellij/util/xmlb/XmlSerializer$1
+instanceKlass org/jetbrains/kotlin/com/intellij/util/xmlb/SerializationFilter
+instanceKlass org/jetbrains/kotlin/com/intellij/util/xmlb/XmlSerializer
+instanceKlass org/jetbrains/kotlin/com/intellij/ide/plugins/OptimizedPluginBean
+instanceKlass org/jetbrains/kotlin/org/jdom/ContentList$FilterListIterator
+instanceKlass org/jetbrains/kotlin/org/jdom/filter2/AbstractFilter
+instanceKlass org/jetbrains/kotlin/org/jdom/filter2/Filter
+instanceKlass org/jetbrains/kotlin/org/jdom/filter/AbstractFilter
+instanceKlass org/jetbrains/kotlin/org/jdom/internal/ArrayCopy
+instanceKlass org/jetbrains/kotlin/org/jdom/AttributeList$1
+instanceKlass com/sun/org/apache/xerces/internal/util/XMLChar
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/util/SafeJdomFactory$BaseSafeJdomFactory
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/util/SafeJdomFactory
+instanceKlass org/jetbrains/kotlin/com/intellij/openapi/util/SafeStAXStreamBuilder
+instanceKlass com/sun/xml/internal/stream/util/BufferAllocator
+instanceKlass com/sun/xml/internal/stream/util/ThreadLocalBufferAllocator
+instanceKlass com/sun/xml/internal/stream/Entity
+instanceKlass com/sun/org/apache/xerces/internal/util/XMLSymbols
+instanceKlass com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer
+instanceKlass com/sun/org/apache/xerces/internal/impl/msg/XMLMessageFormatter
+instanceKlass com/sun/org/apache/xerces/internal/util/MessageFormatter
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLErrorReporter
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLEntityScanner
+instanceKlass com/sun/org/apache/xerces/internal/xni/XMLLocator
+instanceKlass com/sun/xml/internal/stream/XMLEntityStorage
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLEntityManager$CharacterBuffer
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLEntityManager$CharacterBufferPool
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLEntityManager
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLEntityResolver
+instanceKlass com/sun/org/apache/xerces/internal/util/NamespaceContextWrapper
+instanceKlass javax/xml/namespace/NamespaceContext
+instanceKlass com/sun/org/apache/xerces/internal/xni/grammars/XMLDTDDescription
+instanceKlass com/sun/org/apache/xerces/internal/xni/grammars/XMLGrammarDescription
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLDocumentScannerImpl$TrailingMiscDriver
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLDocumentScannerImpl$PrologDriver
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLDocumentScannerImpl$XMLDeclDriver
+instanceKlass com/sun/org/apache/xerces/internal/util/NamespaceSupport
+instanceKlass com/sun/org/apache/xerces/internal/xni/NamespaceContext
