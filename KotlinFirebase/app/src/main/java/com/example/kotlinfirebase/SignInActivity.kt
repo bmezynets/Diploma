@@ -9,6 +9,7 @@ import com.google.firebase.database.*
 //import com.google.firebase.auth.FirebaseUser
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_main.view.*
+import java.util.*
 
 class SignInActivity : AppCompatActivity() {
     private  var database : DatabaseReference? = null
@@ -41,13 +42,21 @@ class SignInActivity : AppCompatActivity() {
                             val user = u.getValue(User::class.java)
                             userList.add(user!!)
                         }
-                        var u: User? = userList.find { it.email == inputEmail.text.toString() &&
-                                it.password == inputPassword.text.toString()}
+                        var u: User? = userList.find {
+                            it.email == inputEmail.text.toString() &&
+                                   it.password!!.equals(PasswordUtil.hashPassword(inputPassword.text.toString(), it.salt!!.toString()))
+                        }
                         if(u == null){
                             Toast.makeText(applicationContext, "Login or password is wrong. Check and try again.", Toast.LENGTH_SHORT).show()
                             inputEmail.requestFocus()
                             inputPassword.requestFocus()
-                        }else{
+                        }else if(u.userRole == "Admin"){
+                            startActivity(
+                                Intent(this@SignInActivity, UserManagementActivity::class.java)
+                                    .putExtra("name", u!!.name)
+                            )
+                        }
+                        else{
                             startActivity(Intent(applicationContext, MainApplicationActivity::class.java).putExtra("name", u!!.name))
                         }
                     }

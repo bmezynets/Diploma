@@ -12,7 +12,10 @@
         android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".DemoActivity"></activity>
+        <activity android:name=".AdminUsersService"></activity>
+        <activity android:name=".UserManagementActivity" />
+        <activity android:name=".EmailVerificationActivity" />
+        <activity android:name=".DemoActivity" />
         <activity android:name=".MainApplicationActivity" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".SignInActivity">
@@ -22,6 +25,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

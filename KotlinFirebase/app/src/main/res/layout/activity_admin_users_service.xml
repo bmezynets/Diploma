@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminUsersService">
+
+
+    <TextView
+        android:id="@+id/serch_guests_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/nunito_bold"
+        android:text="Search for guests"
+        android:textColor="#555555"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/searc_user_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/serch_guests_label"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/search_outline"
+        android:ems="10"
+        android:fontFamily="@font/nunito_bold"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Search here"
+        android:textColor="#999999"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_below="@+id/serch_guests_label"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@+id/searc_user_field"
+        android:background="#ffffff"
+        app:srcCompat="@mipmap/search_button" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/search_result_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="1dp"
+        android:layout_below="@+id/searc_user_field" />
+
+    <!-- <androidx.recyclerview.widget.RecyclerView
+         android:id="@+id/search_result_list"
+         android:layout_width="wrap_content"
+         android:layout_height="match_parent"
+         android:layout_below="@+id/searc_user_field"
+         android:layout_alignParentEnd="true"
+         android:layout_marginTop="100dp"
+         android:layout_marginStart="0dp"
+         android:layout_marginEnd="560dp">
+
+     </androidx.recyclerview.widget.RecyclerView>-->
+
+</RelativeLayout>

@@ -24,9 +24,9 @@ class MainApplicationActivity : AppCompatActivity() {
 
     private var items = arrayListOf(
         NavigationItemModel(R.drawable.ic_home, "Home"),
-        NavigationItemModel(R.drawable.ic_music, "Music"),
-        NavigationItemModel(R.drawable.ic_movie, "Movies"),
-        NavigationItemModel(R.drawable.ic_book, "Books"),
+        NavigationItemModel(R.drawable.ic_music, "Users"),
+        NavigationItemModel(R.drawable.ic_movie, "Employee"),
+        NavigationItemModel(R.drawable.ic_book, "Rooms"),
         NavigationItemModel(R.drawable.ic_profile, "Profile"),
         NavigationItemModel(R.drawable.ic_settings, "Settings"),
         NavigationItemModel(R.drawable.ic_social, "Like us on facebook")
@@ -53,34 +53,31 @@ class MainApplicationActivity : AppCompatActivity() {
                     0 -> {
                         // # Home Fragment
                         val bundle = Bundle()
-                        bundle.putString("fragmentName", "Home Fragment")
+                        bundle.putString("fragmentName", "Home")
                         val homeFragment = DemoFragment()
                         homeFragment.arguments = bundle
                         supportFragmentManager.beginTransaction()
                             .replace(R.id.activity_main_content_id, homeFragment).commit()
                     }
                     1 -> {
-                        // # Music Fragment
-                        val bundle = Bundle()
-                        bundle.putString("fragmentName", "Music Fragment")
-                        val musicFragment = DemoFragment()
-                        musicFragment.arguments = bundle
-                        supportFragmentManager.beginTransaction()
-                            .replace(R.id.activity_main_content_id, musicFragment).commit()
+                        // # User
+                        val intent = Intent(this@MainApplicationActivity, UserManagementActivity::class.java)
+                        intent.putExtra("activityName", "Users")
+                        startActivity(intent)
                     }
                     2 -> {
-                        // # Movies Fragment
+                        // # Employee
                         val bundle = Bundle()
-                        bundle.putString("fragmentName", "Movies Fragment")
+                        bundle.putString("fragmentName", "Employee")
                         val moviesFragment = DemoFragment()
                         moviesFragment.arguments = bundle
                         supportFragmentManager.beginTransaction()
                             .replace(R.id.activity_main_content_id, moviesFragment).commit()
                     }
                     3 -> {
-                        // # Books Fragment
+                        // # Rooms
                         val bundle = Bundle()
-                        bundle.putString("fragmentName", "Books Fragment")
+                        bundle.putString("fragmentName", "Rooms")
                         val booksFragment = DemoFragment()
                         booksFragment.arguments = bundle
                         supportFragmentManager.beginTransaction()
@@ -95,7 +92,7 @@ class MainApplicationActivity : AppCompatActivity() {
                     5 -> {
                         // # Settings Fragment
                         val bundle = Bundle()
-                        bundle.putString("fragmentName", "Settings Fragment")
+                        bundle.putString("fragmentName", "Settings")
                         val settingsFragment = DemoFragment()
                         settingsFragment.arguments = bundle
                         supportFragmentManager.beginTransaction()
@@ -123,7 +120,7 @@ class MainApplicationActivity : AppCompatActivity() {
 
         // Set 'Home' as the default fragment when the app starts
         val bundle = Bundle()
-        bundle.putString("fragmentName", "Home Fragment")
+        bundle.putString("fragmentName", "Home")
         val homeFragment = DemoFragment()
         homeFragment.arguments = bundle
         supportFragmentManager.beginTransaction()
